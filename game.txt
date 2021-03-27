@@ -1,0 +1,684 @@
+Red would select [(5, 0), (4, 1)]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     b     b     b    
+2     b     b     b     b 
+3  .     .     .     .    
+4     r     .     .     . 
+5  .     r     r     r    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Black would select [(2, 3), (3, 2)]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     b     b     b    
+2     b     .     b     b 
+3  .     b     .     .    
+4     r     .     .     . 
+5  .     r     r     r    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Red would select [(4, 1), (2, 3, (3, 2))]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     b     b     b    
+2     b     r     b     b 
+3  .     .     .     .    
+4     .     .     .     . 
+5  .     r     r     r    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Black would select [(1, 2), (3, 4, (2, 3))]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     .     b     b    
+2     b     .     b     b 
+3  .     .     b     .    
+4     .     .     .     . 
+5  .     r     r     r    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Red would select [(5, 2), (4, 1)]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     .     b     b    
+2     b     .     b     b 
+3  .     .     b     .    
+4     r     .     .     . 
+5  .     .     r     r    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Black would select [(3, 4), (4, 5)]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     .     b     b    
+2     b     .     b     b 
+3  .     .     .     .    
+4     r     .     b     . 
+5  .     .     r     r    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Red would select [(5, 4), (3, 6, (4, 5))]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     .     b     b    
+2     b     .     b     b 
+3  .     .     .     r    
+4     r     .     .     . 
+5  .     .     .     r    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Black would select [(2, 7), (4, 5, (3, 6))]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     .     b     b    
+2     b     .     b     . 
+3  .     .     .     .    
+4     r     .     b     . 
+5  .     .     .     r    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Red would select [(5, 6), (3, 4, (4, 5))]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     .     b     b    
+2     b     .     b     . 
+3  .     .     r     .    
+4     r     .     .     . 
+5  .     .     .     .    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Black would select [(2, 5), (4, 3, (3, 4))]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     .     b     b    
+2     b     .     .     . 
+3  .     .     .     .    
+4     r     b     .     . 
+5  .     .     .     .    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Red would select [(4, 1), (3, 0)]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     .     b     b    
+2     b     .     .     . 
+3  r     .     .     .    
+4     .     b     .     . 
+5  .     .     .     .    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Black would select [(2, 1), (3, 2)]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     .     b     b    
+2     .     .     .     . 
+3  r     b     .     .    
+4     .     b     .     . 
+5  .     .     .     .    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Red would select [(3, 0), (2, 1)]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     .     b     b    
+2     r     .     .     . 
+3  .     b     .     .    
+4     .     b     .     . 
+5  .     .     .     .    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Black would select [(3, 2), (4, 1)]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     .     b     b    
+2     r     .     .     . 
+3  .     .     .     .    
+4     b     b     .     . 
+5  .     .     .     .    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Red would select [(2, 1), (1, 2)]
+   0  1  2  3  4  5  6  7 
+0     b     b     b     b 
+1  b     r     b     b    
+2     .     .     .     . 
+3  .     .     .     .    
+4     b     b     .     . 
+5  .     .     .     .    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Black would select [(0, 3), (2, 1, (1, 2))]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  b     .     b     b    
+2     b     .     .     . 
+3  .     .     .     .    
+4     b     b     .     . 
+5  .     .     .     .    
+6     r     r     r     r 
+7  r     r     r     r    
+
+Red would select [(6, 1), (5, 0)]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  b     .     b     b    
+2     b     .     .     . 
+3  .     .     .     .    
+4     b     b     .     . 
+5  r     .     .     .    
+6     .     r     r     r 
+7  r     r     r     r    
+
+Black would select [(2, 1), (3, 0)]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  b     .     b     b    
+2     .     .     .     . 
+3  b     .     .     .    
+4     b     b     .     . 
+5  r     .     .     .    
+6     .     r     r     r 
+7  r     r     r     r    
+
+Red would select [(5, 0), (3, 2, (4, 1))]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  b     .     b     b    
+2     .     .     .     . 
+3  b     r     .     .    
+4     .     b     .     . 
+5  .     .     .     .    
+6     .     r     r     r 
+7  r     r     r     r    
+
+Black would select [(1, 4), (2, 5)]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  b     .     .     b    
+2     .     .     b     . 
+3  b     r     .     .    
+4     .     b     .     . 
+5  .     .     .     .    
+6     .     r     r     r 
+7  r     r     r     r    
+
+Red would select [(3, 2), (2, 1)]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  b     .     .     b    
+2     r     .     b     . 
+3  b     .     .     .    
+4     .     b     .     . 
+5  .     .     .     .    
+6     .     r     r     r 
+7  r     r     r     r    
+
+Black would select [(1, 0), (3, 2, (2, 1))]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  .     .     .     b    
+2     .     .     b     . 
+3  b     b     .     .    
+4     .     b     .     . 
+5  .     .     .     .    
+6     .     r     r     r 
+7  r     r     r     r    
+
+Red would select [(6, 3), (5, 2)]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  .     .     .     b    
+2     .     .     b     . 
+3  b     b     .     .    
+4     .     b     .     . 
+5  .     r     .     .    
+6     .     .     r     r 
+7  r     r     r     r    
+
+Black would select [(4, 3), (6, 1, (5, 2))]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  .     .     .     b    
+2     .     .     b     . 
+3  b     b     .     .    
+4     .     .     .     . 
+5  .     .     .     .    
+6     b     .     r     r 
+7  r     r     r     r    
+
+Red would select [(7, 0), (5, 2, (6, 1))]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  .     .     .     b    
+2     .     .     b     . 
+3  b     b     .     .    
+4     .     .     .     . 
+5  .     r     .     .    
+6     .     .     r     r 
+7  .     r     r     r    
+
+Black would select [(3, 0), (4, 1)]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  .     .     .     b    
+2     .     .     b     . 
+3  .     b     .     .    
+4     b     .     .     . 
+5  .     r     .     .    
+6     .     .     r     r 
+7  .     r     r     r    
+
+Red would select [(5, 2), (3, 0, (4, 1))]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  .     .     .     b    
+2     .     .     b     . 
+3  r     b     .     .    
+4     .     .     .     . 
+5  .     .     .     .    
+6     .     .     r     r 
+7  .     r     r     r    
+
+Black would select [(1, 6), (2, 7)]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  .     .     .     .    
+2     .     .     b     b 
+3  r     b     .     .    
+4     .     .     .     . 
+5  .     .     .     .    
+6     .     .     r     r 
+7  .     r     r     r    
+
+Red would select [(3, 0), (2, 1)]
+   0  1  2  3  4  5  6  7 
+0     b     .     b     b 
+1  .     .     .     .    
+2     r     .     b     b 
+3  .     b     .     .    
+4     .     .     .     . 
+5  .     .     .     .    
+6     .     .     r     r 
+7  .     r     r     r    
+
+Black would select [(0, 1), (1, 2)]
+   0  1  2  3  4  5  6  7 
+0     .     .     b     b 
+1  .     b     .     .    
+2     r     .     b     b 
+3  .     b     .     .    
+4     .     .     .     . 
+5  .     .     .     .    
+6     .     .     r     r 
+7  .     r     r     r    
+
+Red would select [(2, 1), (0, 3, (1, 2))]
+   0  1  2  3  4  5  6  7 
+0     .     R     b     b 
+1  .     .     .     .    
+2     .     .     b     b 
+3  .     b     .     .    
+4     .     .     .     . 
+5  .     .     .     .    
+6     .     .     r     r 
+7  .     r     r     r    
+
+Black would select [(2, 7), (3, 6)]
+   0  1  2  3  4  5  6  7 
+0     .     R     b     b 
+1  .     .     .     .    
+2     .     .     b     . 
+3  .     b     .     b    
+4     .     .     .     . 
+5  .     .     .     .    
+6     .     .     r     r 
+7  .     r     r     r    
+
+Red would select [(0, 3), (1, 4)]
+   0  1  2  3  4  5  6  7 
+0     .     .     b     b 
+1  .     .     R     .    
+2     .     .     b     . 
+3  .     b     .     b    
+4     .     .     .     . 
+5  .     .     .     .    
+6     .     .     r     r 
+7  .     r     r     r    
+
+Black would select [(0, 5), (2, 3, (1, 4))]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     b 
+1  .     .     .     .    
+2     .     b     b     . 
+3  .     b     .     b    
+4     .     .     .     . 
+5  .     .     .     .    
+6     .     .     r     r 
+7  .     r     r     r    
+
+Red would select [(6, 5), (5, 4)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     b 
+1  .     .     .     .    
+2     .     b     b     . 
+3  .     b     .     b    
+4     .     .     .     . 
+5  .     .     r     .    
+6     .     .     .     r 
+7  .     r     r     r    
+
+Black would select [(2, 5), (3, 4)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     b 
+1  .     .     .     .    
+2     .     b     .     . 
+3  .     b     b     b    
+4     .     .     .     . 
+5  .     .     r     .    
+6     .     .     .     r 
+7  .     r     r     r    
+
+Red would select [(5, 4), (4, 3)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     b 
+1  .     .     .     .    
+2     .     b     .     . 
+3  .     b     b     b    
+4     .     r     .     . 
+5  .     .     .     .    
+6     .     .     .     r 
+7  .     r     r     r    
+
+Black would select [(3, 4), (5, 2, (4, 3))]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     b 
+1  .     .     .     .    
+2     .     b     .     . 
+3  .     b     .     b    
+4     .     .     .     . 
+5  .     b     .     .    
+6     .     .     .     r 
+7  .     r     r     r    
+
+Red would select [(6, 7), (5, 6)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     b 
+1  .     .     .     .    
+2     .     b     .     . 
+3  .     b     .     b    
+4     .     .     .     . 
+5  .     b     .     r    
+6     .     .     .     . 
+7  .     r     r     r    
+
+Black would select [(3, 6), (4, 5)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     b 
+1  .     .     .     .    
+2     .     b     .     . 
+3  .     b     .     .    
+4     .     .     b     . 
+5  .     b     .     r    
+6     .     .     .     . 
+7  .     r     r     r    
+
+Red would select [(5, 6), (3, 4, (4, 5)), (1, 2, (2, 3))]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     b 
+1  .     r     .     .    
+2     .     .     .     . 
+3  .     b     .     .    
+4     .     .     .     . 
+5  .     b     .     .    
+6     .     .     .     . 
+7  .     r     r     r    
+
+Black would select [(3, 2), (4, 3)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     b 
+1  .     r     .     .    
+2     .     .     .     . 
+3  .     .     .     .    
+4     .     b     .     . 
+5  .     b     .     .    
+6     .     .     .     . 
+7  .     r     r     r    
+
+Red would select [(1, 2), (0, 1)]
+   0  1  2  3  4  5  6  7 
+0     R     .     .     b 
+1  .     .     .     .    
+2     .     .     .     . 
+3  .     .     .     .    
+4     .     b     .     . 
+5  .     b     .     .    
+6     .     .     .     . 
+7  .     r     r     r    
+
+Black would select [(0, 7), (1, 6)]
+   0  1  2  3  4  5  6  7 
+0     R     .     .     . 
+1  .     .     .     b    
+2     .     .     .     . 
+3  .     .     .     .    
+4     .     b     .     . 
+5  .     b     .     .    
+6     .     .     .     . 
+7  .     r     r     r    
+
+Red would select [(0, 1), (1, 2)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     R     .     b    
+2     .     .     .     . 
+3  .     .     .     .    
+4     .     b     .     . 
+5  .     b     .     .    
+6     .     .     .     . 
+7  .     r     r     r    
+
+Black would select [(5, 2), (6, 1)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     R     .     b    
+2     .     .     .     . 
+3  .     .     .     .    
+4     .     b     .     . 
+5  .     .     .     .    
+6     b     .     .     . 
+7  .     r     r     r    
+
+Red would select [(7, 2), (5, 0, (6, 1))]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     R     .     b    
+2     .     .     .     . 
+3  .     .     .     .    
+4     .     b     .     . 
+5  r     .     .     .    
+6     .     .     .     . 
+7  .     .     r     r    
+
+Black would select [(4, 3), (5, 4)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     R     .     b    
+2     .     .     .     . 
+3  .     .     .     .    
+4     .     .     .     . 
+5  r     .     b     .    
+6     .     .     .     . 
+7  .     .     r     r    
+
+Red would select [(1, 2), (0, 3)]
+   0  1  2  3  4  5  6  7 
+0     .     R     .     . 
+1  .     .     .     b    
+2     .     .     .     . 
+3  .     .     .     .    
+4     .     .     .     . 
+5  r     .     b     .    
+6     .     .     .     . 
+7  .     .     r     r    
+
+Black would select [(1, 6), (2, 5)]
+   0  1  2  3  4  5  6  7 
+0     .     R     .     . 
+1  .     .     .     .    
+2     .     .     b     . 
+3  .     .     .     .    
+4     .     .     .     . 
+5  r     .     b     .    
+6     .     .     .     . 
+7  .     .     r     r    
+
+Red would select [(0, 3), (1, 4)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     .     R     .    
+2     .     .     b     . 
+3  .     .     .     .    
+4     .     .     .     . 
+5  r     .     b     .    
+6     .     .     .     . 
+7  .     .     r     r    
+
+Black would select [(5, 4), (6, 3)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     .     R     .    
+2     .     .     b     . 
+3  .     .     .     .    
+4     .     .     .     . 
+5  r     .     .     .    
+6     .     b     .     . 
+7  .     .     r     r    
+
+Red would select [(1, 4), (3, 6, (2, 5))]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     .     .     .    
+2     .     .     .     . 
+3  .     .     .     R    
+4     .     .     .     . 
+5  r     .     .     .    
+6     .     b     .     . 
+7  .     .     r     r    
+
+Black would select [(6, 3), (7, 2)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     .     .     .    
+2     .     .     .     . 
+3  .     .     .     R    
+4     .     .     .     . 
+5  r     .     .     .    
+6     .     .     .     . 
+7  .     B     r     r    
+
+Red would select [(3, 6), (2, 7)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     .     .     .    
+2     .     .     .     R 
+3  .     .     .     .    
+4     .     .     .     . 
+5  r     .     .     .    
+6     .     .     .     . 
+7  .     B     r     r    
+
+Black would select [(7, 2), (6, 1)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     .     .     .    
+2     .     .     .     R 
+3  .     .     .     .    
+4     .     .     .     . 
+5  r     .     .     .    
+6     B     .     .     . 
+7  .     .     r     r    
+
+Red would select [(2, 7), (1, 6)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     .     .     R    
+2     .     .     .     . 
+3  .     .     .     .    
+4     .     .     .     . 
+5  r     .     .     .    
+6     B     .     .     . 
+7  .     .     r     r    
+
+Black would select [(6, 1), (5, 2)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     . 
+1  .     .     .     R    
+2     .     .     .     . 
+3  .     .     .     .    
+4     .     .     .     . 
+5  r     B     .     .    
+6     .     .     .     . 
+7  .     .     r     r    
+
+Red would select [(1, 6), (0, 7)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     R 
+1  .     .     .     .    
+2     .     .     .     . 
+3  .     .     .     .    
+4     .     .     .     . 
+5  r     B     .     .    
+6     .     .     .     . 
+7  .     .     r     r    
+
+Black would select [(5, 2), (4, 1)]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     R 
+1  .     .     .     .    
+2     .     .     .     . 
+3  .     .     .     .    
+4     B     .     .     . 
+5  r     .     .     .    
+6     .     .     .     . 
+7  .     .     r     r    
+
+Red would select [(5, 0), (3, 2, (4, 1))]
+   0  1  2  3  4  5  6  7 
+0     .     .     .     R 
+1  .     .     .     .    
+2     .     .     .     . 
+3  .     r     .     .    
+4     .     .     .     . 
+5  .     .     .     .    
+6     .     .     .     . 
+7  .     .     r     r    
+
+Black would select []
+   0  1  2  3  4  5  6  7 
+0     .     .     .     R 
+1  .     .     .     .    
+2     .     .     .     . 
+3  .     r     .     .    
+4     .     .     .     . 
+5  .     .     .     .    
+6     .     .     .     . 
+7  .     .     r     r    
+
+Winner is Red!
+Time elapsed in seconds: 90.03885507583618
